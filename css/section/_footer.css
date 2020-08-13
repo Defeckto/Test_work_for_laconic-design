@@ -1,0 +1,27 @@
+.footer__container {
+	justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.footer {
+	background-color: var(--main-color);
+    color: var(--white-color);
+    padding: 12px 0;
+}
+
+.footer__row{
+    width: 33.333%;
+    box-sizing: initial;
+}
+.footer__row:nth-child(odd){
+    padding-top: 22px;
+}
+.footer__row:not(:last-child){
+    border-right: 2px solid var(--white-color);
+}
+
+.footer__item{
+    padding-top: 3px;
+}

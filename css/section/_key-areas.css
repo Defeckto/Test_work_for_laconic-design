@@ -1,0 +1,49 @@
+.key-areas__container {
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+.key-areas__subtitle {
+	margin-top: 46px;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: var(--grey-color);
+}
+
+.key-areas__title {
+	margin: 20px 0;
+	font-size: 30px;
+	line-height: 36px;
+	color: var(--black-color);
+}
+
+.key-areas__star {
+	display: flex;
+	margin: 0 auto;
+	width: 26px;
+	height: 26px;
+}
+
+.key-areas__star::after,
+.key-areas__star::before {
+	content: '';
+	display: inline-block;
+	box-sizing: border-box;
+	width: 50px;
+	height: 1px;
+	background: var(--main-color);
+	margin: auto;
+
+}
+
+.key-areas__star::after {
+	margin-right: -250%;
+}
+
+.key-areas__star::before {
+	margin-left: -250%;
+}

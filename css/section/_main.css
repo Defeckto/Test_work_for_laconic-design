@@ -1,0 +1,39 @@
+.main {
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 17px;
+	align-items: center;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-bottom: 233px;
+	background: linear-gradient(87.68deg, rgba(255, 255, 255, 0) 7.73%, rgba(255, 255, 255, 0.9) 55.76%);
+}
+
+
+.main__title {
+	padding-top: 164px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+	color: #2F80ED;
+}
+
+.main__subtitle {
+	padding-top: 20px;
+	font-family: 'Cond_Pro', sans-serif;
+	font-size: 50px;
+	line-height: 55px;
+	white-space: pre-line;
+	text-align: right;
+}
+
+.btn__main {
+	font-weight: 700;
+	margin-top: 64px;
+	padding: 8px 59px;
+	text-transform: uppercase;
+}
